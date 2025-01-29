@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="/">Home</a>
+        <a href="/create-user">create-user</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+    </div>
+    <div class="form">
+        <form action="/create-user" method="post">
+            <div class="form-group">
+                <label for="email">Email:</label><br>
+                 <input type="email" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="email">Name:</label><br>
+                 <input type="text" id="email" name="name">
+            </div>
+            <div class="form-group">
+                <label for="email">City:</label><br>
+                 <input type="text" id="email" name="city">
+            </div>
+            <div class="form-group">
+                <label for="pwd">Password:</label><br>
+                <input type="password" id="pwd" name="pwd">
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
